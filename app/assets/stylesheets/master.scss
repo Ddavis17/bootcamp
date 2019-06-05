@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+
+
 .clear {
   clear: both;
 }
@@ -40,6 +42,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'nobileregular', sans-serif;
+font-weight:bold;
 }
 
 header{
@@ -50,6 +54,16 @@ hr {
   clear: both;
 }
 
+h1 {
+  font-family: 'alex_brushregular';
+  font-weight: bold;
+  font-size: 48px;
+
+}
+
+h2 {
+  font-family: 'alex_brushregular', sans-serif;
+}
 
 
 
