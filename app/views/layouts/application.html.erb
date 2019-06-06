@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Splurty</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+  
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+
+
+  <head>
+          <title>Splurty</title>
+              <%= csrf_meta_tags %>
+               <%= csp_meta_tag %>
+
+                 <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+                <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+
+  
+
+
+
 
   <body>
     <header class="row">
@@ -26,18 +37,34 @@
         <% end %>
       </div>
 
+
+
+
+
+
       <!--starting the slogan container-->
       <div class="col-4 slogan">
         Splurting out unsolicited advice about entrepreneurship since 2016
       </div>
+
+
+
+
+
 
       <!--links-->
       <div class="col-5 links">
         <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
+
+
+
       
     </header>
+
+
+    
 
     <hr />
 
